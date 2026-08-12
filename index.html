@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Study Notes Hub</title><link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <div class="logo">🎓 <span>Study <b>Notes Hub</b></span><small>Your Notes, Your Success 📚</small></div>
+  <nav><a class="active" href="#home">⌂ Home</a><a href="#subjects">▦ Subjects</a><a href="#notes">▤ Latest Notes</a><a href="#about">About Us</a><button onclick="admin()">🔒 Admin Login</button></nav>
+</header>
+
+<section id="home" class="hero">
+  <div class="heroText">
+    <div class="pill">✨ STUDY • LEARN • GROW</div>
+    <h1>Smart Notes<br><span>Better Learning</span></h1>
+    <p>Access quality study notes, question papers and study materials — anytime, anywhere.</p>
+    <div class="search"><span>⌕</span><input id="search" placeholder="Search notes by subject, title or keyword..." oninput="render()"><button onclick="document.querySelector('#notes').scrollIntoView()">Search</button></div>
+    <div class="benefits"><span>✓ Free Access</span><span>⇩ Easy Download</span><span>▣ Quality Notes</span></div>
+  </div>
+  <div class="desk"><div class="books"><b>DATA STRUCTURE</b><b>DBMS</b><b>JAVA</b><b>C++ PROGRAMMING</b><b>SOFTWARE ENGINEERING</b></div><div class="paper">Study Plan<br><strong>= Success</strong> ✓</div><div class="lamp">💡</div></div>
+</section>
+
+<section id="subjects">
+  <div class="title"><h2>📚 Explore Subjects</h2><button onclick="clearFilter()">View All →</button></div>
+  <div class="subjects" id="subjectGrid"></div>
+</section>
+
+<section id="notes">
+  <div class="title"><div><h2>📖 Latest Uploaded Notes</h2><p id="count"></p></div></div>
+  <div class="notes" id="noteGrid"></div>
+</section>
+
+<section id="about" class="about"><div><h2>🎓 Quality Notes for Bright Future</h2><p>Well-structured, easy-to-understand notes made for students and exam preparation.</p></div><div class="stats"><b>200+<small>Subjects</small></b><b>1,200+<small>Notes</small></b><b>500+<small>Downloads</small></b><b>😊<small>Happy Students</small></b></div></section>
+
+<footer>© 2026 Study Notes Hub <span>Made with ❤️ for Students</span></footer>
+<script src="script.js"></script>
+</body></html>
