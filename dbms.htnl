@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>DBMS Notes</title>
+
+<style>
+body {
+    margin: 0;
+    background: #f4f6fb;
+    font-family: Arial, sans-serif;
+    color: #172033;
+}
+
+.header {
+    background: linear-gradient(135deg, #4036c9, #7558ff);
+    color: white;
+    text-align: center;
+    padding: 25px 15px;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 30px;
+}
+
+.header p {
+    margin: 8px 0 0;
+}
+
+.notes {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px 10px;
+}
+
+.note-image {
+    width: 100%;
+    display: block;
+    margin: 20px auto;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px #0002;
+}
+
+.back {
+    display: inline-block;
+    margin: 20px 0;
+    padding: 12px 18px;
+    background: #5b4de8;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: bold;
+}
+</style>
+</head>
+
+<body>
+
+<div class="header">
+    <h1>💻 DBMS Notes</h1>
+    <p>Important Notes for Exam Preparation</p>
+</div>
+
+<div class="notes">
+
+<a class="back" href="index.html">← Back to Home</a>
+
+<img class="note-image"
+src="file_0000000042e08208b412882f43822f62.png"
+alt="DBMS Notes Page 1">
+
+<img class="note-image"
+src="file_0000000050e08211b3a7f571c361ff9a.png"
+alt="DBMS Notes Page 2">
+
+</div>
+
+</body>
+</html>
